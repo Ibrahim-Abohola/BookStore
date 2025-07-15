@@ -329,9 +329,8 @@ nav ul li a {
 }
 
 footer {
-   
+    margin-top: 40px;
     padding: 10px;
-    color:  white;
-    background: black;
+    background: #f1f1f1;
     text-align: center;
 }

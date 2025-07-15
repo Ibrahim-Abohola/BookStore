@@ -6,9 +6,15 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 100px 20px 0 20px; 
 }
 
+.intro {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 80px;
+}
 nav {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
@@ -23,7 +29,8 @@ nav.top-nav {
   justify-content: flex-end;
   background: white;
   position: sticky;
-  z-index: 1000;
+  t 0;
+  z-index: 100op:0;
 }
 nav.top-nav ul {
   display: flex;
@@ -63,16 +70,10 @@ nav ul li a {
 }
 
 .hero {
+    background: url('images/banner.jpg') center/cover;
     color: white;
+    padding: 40px;
     text-align: center;
-    margin-top: 100px;
-}
-.intro {
-    color: white;
-    font-size: 2rem;
-    padding-left: 20px;
-    margin-bottom: 1rem;
-    margin-top: 80px;
 }
 
 .highlights {
@@ -90,7 +91,6 @@ nav ul li a {
 .highlight-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    width: 100%;
     gap: 2rem;
 }
 
@@ -329,9 +329,8 @@ nav ul li a {
 }
 
 footer {
-   
+    margin-top: 40px;
     padding: 10px;
-    color:  white;
-    background: black;
+    background: #f1f1f1;
     text-align: center;
 }

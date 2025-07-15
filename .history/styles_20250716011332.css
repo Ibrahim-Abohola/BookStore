@@ -27,8 +27,7 @@ nav.top-nav {
 }
 nav.top-nav ul {
   display: flex;
-  margin: 0;
-  padding: 0;
+
 }
 nav.top-nav ul li {
   margin-left: 15px;
@@ -36,7 +35,7 @@ nav.top-nav ul li {
 nav.top-nav ul li a {
   color: black;
   font-weight: bold;
-  padding: 8px 12px;
+  
 }
 nav.top-nav ul li a:hover {
   background-color: #147749ea;
@@ -53,7 +52,7 @@ nav ul {
     display: flex;
     list-style: none;
     background:white;
-    padding: 10px;
+    
 }
 
 nav ul li a {
@@ -65,12 +64,10 @@ nav ul li a {
 .hero {
     color: white;
     text-align: center;
-    margin-top: 100px;
 }
 .intro {
     color: white;
     font-size: 2rem;
-    padding-left: 20px;
     margin-bottom: 1rem;
     margin-top: 80px;
 }
@@ -329,9 +326,8 @@ nav ul li a {
 }
 
 footer {
-   
+    margin-top: 40px;
     padding: 10px;
-    color:  white;
-    background: black;
+    background: #f1f1f1;
     text-align: center;
 }

@@ -9,6 +9,7 @@ body {
     padding: 0 20px;
 }
 
+
 nav {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
@@ -63,16 +64,10 @@ nav ul li a {
 }
 
 .hero {
+    background: url('images/banner.jpg') center/cover;
     color: white;
+    padding: 40px;
     text-align: center;
-    margin-top: 100px;
-}
-.intro {
-    color: white;
-    font-size: 2rem;
-    padding-left: 20px;
-    margin-bottom: 1rem;
-    margin-top: 80px;
 }
 
 .highlights {
@@ -90,6 +85,7 @@ nav ul li a {
 .highlight-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: none;
     width: 100%;
     gap: 2rem;
 }
@@ -329,9 +325,8 @@ nav ul li a {
 }
 
 footer {
-   
+    margin-top: 40px;
     padding: 10px;
-    color:  white;
-    background: black;
+    background: #f1f1f1;
     text-align: center;
 }

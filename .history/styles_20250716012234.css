@@ -76,7 +76,7 @@ nav ul li a {
 }
 
 .highlights {
-    padding: 4rem 0;
+   \
     background: rgba(255, 255, 255, 0.95);
 }
 
@@ -329,9 +329,8 @@ nav ul li a {
 }
 
 footer {
-   
+    margin-top: 40px;
     padding: 10px;
-    color:  white;
-    background: black;
+    background: #f1f1f1;
     text-align: center;
 }
