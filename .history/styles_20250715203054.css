@@ -1,0 +1,86 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+} 
+ .container > div {
+    background-color: aqua;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  background: #333;
+  padding: 10px;
+}
+nav ul li a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.hero {
+  background: url('images/banner.jpg') center/cover;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+  .highlights {
+            padding: 4rem 0;
+            background: rgba(255, 255, 255, 0.95);
+        }
+
+        .highlights h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: #764ba2;
+            font-size: 2.5rem;
+        }
+
+        .highlight-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .highlight-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .highlight-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .highlight-card h3 {
+            color: #764ba2;
+            margin-bottom: 1rem;
+        }
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+.book {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: calc(33.333% - 40px);
+}
+footer {
+  margin-top: 40px;
+  padding: 10px;
+  background: #f1f1f1;
+  text-align: center;
+}

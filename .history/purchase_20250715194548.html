@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Purchase Book</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    window.onload = () => {
+      const params = new URLSearchParams(window.location.search);
+      const title = params.get("title") || "Book Title 1";
+      const author = params.get("author") || "Author A";
+      const genre = params.get("genre") || "Fiction";
+      const image = params.get("image") || "images/book1.jpg";
+
+      document.getElementById("book-image").src = image;
+      document.getElementById("book-title").textContent = `Title: ${title}`;
+      document.getElementById("book-author").textContent = `Author: ${author}`;
+      document.getElementById("book-genre").textContent = `Genre: ${genre}`;
+    };
+  </script>
+</head>
+<body>
+  <h2>Purchase Book</h2>
+  <div class="book-details">
+    <img id="book-image" src="" alt="Book">
+    <p id="book-title"></p>
+    <p id="book-author"></p>
+    <p id="book-genre"></p>
+  </div>
+  <form action="#">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name"><br>
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address"><br>
+    <button type="submit">Buy</button>
+  </form>
+</body>
+</html>
